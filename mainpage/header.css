@@ -1,6 +1,6 @@
 header{
   padding-top: 34px ;
-  margin-bottom: 150px;
+  /* margin-bottom: 150px; */
 
 }
 
@@ -75,7 +75,7 @@ header{
 
 /* /* services */
 .header__games{
-  margin-bottom: 121px;
+  padding-bottom: 121px;
   max-height: 412px;
  /* background: url(../img/phonetop.png); */
 } 

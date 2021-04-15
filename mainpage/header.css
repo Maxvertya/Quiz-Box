@@ -53,15 +53,33 @@ header{
   text-decoration: none;
 }
 
+.menu__link:hover{
+  font-size: 16px;
+  text-decoration: none;
+  color:#8F00FF;
+  transition-property: inherit;
+  transition-duration: 0.7s;
+
+}
+
 .contacts{
   font-style: normal;
   text-align: right;
   justify-content: flex-end;
-  
-
 }
 
 .contacts__phone{
+  text-decoration: none;
+  font-size: 26px;
+  font-style: normal;
+  transition-property: inherit;
+  transition-duration: 1s;
+}
+
+.contacts__phone:hover{
+  color: #8F00FF;
+  transition-property: inherit;
+  transition-duration: 1s;
   text-decoration: none;
   font-size: 26px;
   font-style: normal;
@@ -75,7 +93,6 @@ header{
 
 /* /* services */
 .header__games{
-  padding-bottom: 121px;
   max-height: 412px;
  /* background: url(../img/phonetop.png); */
 } 
@@ -83,4 +100,38 @@ header{
 .hello__title-services{
   margin-top: 107px;
   margin-bottom: 104px;
+}
+
+.div{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown__menu{
+  position: absolute;
+  background-color: #EDEDED;
+  border: 1px solid;
+  padding: 22px 19px;
+  width: 163px;
+  top: 100%;
+  display: none;
+  right: 0;
+  border-radius: 5px;
+
+}
+
+.div:hover .dropdown__menu{
+  display: block;
+
+}
+
+.dropdown__time{
+  color: #1E1F20;
+  font-weight: bold;
+  font-size: 13px;
+}
+.dropdown__date{
+  color: #1E1F20;
+  font-weight: normal;
+  font-size: 13px;
 }

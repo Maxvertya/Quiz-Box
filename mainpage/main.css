@@ -110,7 +110,19 @@ a {
   text-decoration: none;
   color: inherit;
   display: block;
+  cursor: pointer;
+  
 }
+
+/* a:hover{
+  text-decoration: none;
+  color:#8F00FF;
+  display: block;
+  transition-property: inherit;
+  transition-duration: 0.7s;
+  cursor: pointer;
+} */
+ 
 
 .button {
   background: #8F00FF;
@@ -122,7 +134,9 @@ a {
   /* border-color: ivory; */
   max-width: 168px;
   margin-right: 0;
-  border: 1px solid
+  border: 1px solid;
+  transition-property: inherit;
+  transition-duration: 0.7s;
 
 }
 
@@ -138,6 +152,8 @@ a {
   text-transform: uppercase;
   max-width: 168px;
   margin-right: 0;
+  transition-property: inherit;
+  transition-duration: 0.7s;
 }
 
 
@@ -206,6 +222,8 @@ paginator__item {
   position: relative;
   text-decoration: none;
   text-align: center;
+  transition-property: inherit;
+  transition-duration: 1s;
 
 }
 
@@ -219,6 +237,9 @@ paginator__item {
 .paginator__link:hover {
   background: #8F00FF;
   text-align: center;
+  color: #FFFFFF;
+  transition-property: inherit;
+  transition-duration: 1s;
 }
 
 
@@ -235,7 +256,17 @@ paginator__item {
 
 .breadcrumbs__link{
   text-decoration: underline;
+  transition-property: inherit;
+  transition-duration: 1s;
 }
+
+.breadcrumbs__link:hover{
+  text-decoration: underline;
+  color: #8F00FF;
+  transition-property: inherit;
+  transition-duration: 1s;
+}
+
 
 button{
   background: transparent;

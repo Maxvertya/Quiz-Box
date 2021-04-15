@@ -1,10 +1,12 @@
 .main__content{
   color: black;
-background-color: #F2F2F2;
-padding-bottom: 94px;
+/* background-color: #F2F2F2; */
+/* padding-bottom: 94px; */
 }
 .reviews__section{
   padding-top: 122px;
+  background-color: #F2F2F2;
+  padding-bottom: 94px;
 }
 
 .reviews{
@@ -38,6 +40,13 @@ padding-bottom: 94px;
   font-weight: bold;
   margin-bottom: 11px;
 
+}
+
+.hello__title {
+  max-width: 640px;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.1;
 }
 
 .review__header-link::after{
@@ -92,7 +101,7 @@ padding-bottom: 94px;
 }
 
 .separator{
-  background-color: #17191C; 
+  background-color:#17191C; 
   min-height: 363px;
   display: flex;
   flex-direction: column;
@@ -108,6 +117,7 @@ padding-bottom: 94px;
   font-size: 48px;
   font-weight: bold;
   line-height: 1.1;
+  color: #FFFFFF;
 }
 
 .form__row{
@@ -130,14 +140,14 @@ padding-bottom: 94px;
   margin-right: 0px;
 }
 
-.inner__section{
+.feedback__section{
   background-color: #F4F5F5;
   color: #1A1B1E;
   padding-bottom: 114px;
   padding-top: 62px;
 }
 
-.inner__section-ttile{
+.feedback__section-ttile{
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 57px;

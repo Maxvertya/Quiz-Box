@@ -119,9 +119,10 @@ a {
   color: #FFFFFF;
   font-weight: bold;
   text-transform: uppercase;
-  border-color: ivory;
-  width: 168px;
+  /* border-color: ivory; */
+  max-width: 168px;
   margin-right: 0;
+  border: 1px solid
 
 }
 
@@ -131,7 +132,12 @@ a {
   border-color: #8F00FF;
   border-style: solid;
   border-radius: 5px;
-  border: 1px solid
+  border: 1px solid;
+  padding: 18px 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: 168px;
+  margin-right: 0;
 }
 
 
@@ -140,15 +146,31 @@ a {
   border-radius: 5px;
   border-style: solid;
   border: 1px solid #FFFFFF;
-  width: 168px;
+  max-width: 168px;
   display: block;
+
+}
+
+.button--black:hover{
+  background-color:#2B2B2B;
+  border-radius: 5px;
+  padding: 18px 40px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-color: ivory;
+  max-width: 168px;
+  margin-right: 0;
+  border: 1px solid;
+  margin-right: 17px;
+  
 
 }
 
 .paginator {
   /*  text-align: center;
   display: block; */
-  margin-bottom: 131.5px;
+  /* margin-bottom: 131.5px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -213,6 +235,12 @@ paginator__item {
 
 .breadcrumbs__link{
   text-decoration: underline;
+}
+
+button{
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 /* .breadcrumbs__item::after{

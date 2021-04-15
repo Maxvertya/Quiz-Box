@@ -43,6 +43,19 @@
 
 }
 
+.title--new{
+  display: flex;
+  align-items: center;
+
+}
+
+
+.title--new::after{
+  content: url(../img/new.png);
+  margin-left: 9px;
+  height: 33px;
+}
+
 .news__features {
   margin-bottom: 26px;
 }

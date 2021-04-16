@@ -136,7 +136,7 @@ a {
   margin-right: 0;
   border: 1px solid;
   transition-property: inherit;
-  transition-duration: 0.7s;
+  transition-duration: 0.3s;
 
 }
 
@@ -153,7 +153,7 @@ a {
   max-width: 168px;
   margin-right: 0;
   transition-property: inherit;
-  transition-duration: 0.7s;
+  transition-duration: 0.3s;
 }
 
 
@@ -223,7 +223,7 @@ paginator__item {
   text-decoration: none;
   text-align: center;
   transition-property: inherit;
-  transition-duration: 1s;
+  transition-duration: 0.3s;
 
 }
 
@@ -239,7 +239,7 @@ paginator__item {
   text-align: center;
   color: #FFFFFF;
   transition-property: inherit;
-  transition-duration: 1s;
+  transition-duration: 0.3s;
 }
 
 
@@ -257,14 +257,14 @@ paginator__item {
 .breadcrumbs__link{
   text-decoration: underline;
   transition-property: inherit;
-  transition-duration: 1s;
+  transition-duration: 0.3s;
 }
 
 .breadcrumbs__link:hover{
   text-decoration: underline;
   color: #8F00FF;
   transition-property: inherit;
-  transition-duration: 1s;
+  transition-duration: 0.3s;
 }
 
 

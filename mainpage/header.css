@@ -58,7 +58,7 @@ header{
   text-decoration: none;
   color:#8F00FF;
   transition-property: inherit;
-  transition-duration: 0.7s;
+  transition-duration: 0.3s;
 
 }
 
@@ -73,13 +73,13 @@ header{
   font-size: 26px;
   font-style: normal;
   transition-property: inherit;
-  transition-duration: 1s;
+  transition-duration: 0.3s;
 }
 
 .contacts__phone:hover{
   color: #8F00FF;
   transition-property: inherit;
-  transition-duration: 1s;
+  transition-duration: 0.3s;
   text-decoration: none;
   font-size: 26px;
   font-style: normal;
@@ -93,7 +93,7 @@ header{
 
 /* /* services */
 .header__games{
-  max-height: 412px;
+  height: 412px;
  /* background: url(../img/phonetop.png); */
 } 
 
@@ -102,27 +102,57 @@ header{
   margin-bottom: 104px;
 }
 
-.div{
+.work{
   position: relative;
-  display: inline-block;
+  display: inline-flex;
 }
 
-.dropdown__menu{
+.work__dropdown{
   position: absolute;
-  background-color: #EDEDED;
-  border: 1px solid;
-  padding: 22px 19px;
-  width: 163px;
-  top: 100%;
-  display: none;
+  top: 31px;
   right: 0;
+  padding: 14px 17px;
+  background-color: bisque;
+  opacity: 0;
+  pointer-events: none;
+  display: none;
+  flex-direction: column;
+  background: #ededee;
+  width: 157px;
+  color: black;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 21px;
   border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
 
 }
 
-.div:hover .dropdown__menu{
-  display: block;
+.work__dropdown-triangle{
+  position: relative;
+}
 
+.work__dropdown-triangle::after{
+  content: "";
+  position: absolute;
+  right: 26px;
+  top: -34px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #ededee;
+}
+
+
+.work:hover .work__dropdown{
+  display: block;
+  opacity: 0.8;
+  pointer-events:all;
+
+}
+
+.work:hover .contacts__info{
+  color: #8F00FF;
+  transition: 0.3s;
 }
 
 .dropdown__time{

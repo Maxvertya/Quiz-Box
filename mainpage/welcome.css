@@ -15,7 +15,8 @@
   align-items: center;
   animation: bounce 1.3s;
   opacity: 0;
-  animation-fill-mode: forwards;
+  animation-fill-mode:forwards; 
+
 }
 
 .central__logo{

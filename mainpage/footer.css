@@ -6,7 +6,41 @@ footer{
 
 }
 
+.footer__networks-item-tg{
+  background-image: url(../img/telegram.png);
+}
 
+.footer__networks-item-tg:hover{
+  background-image: url(../img/tghover.png);
+  transition: 0.3s;
+}
+
+.footer__networks-item-vk{
+  background-image: url(../img/vk.png);
+}
+
+.footer__networks-item-vk:hover{
+  background-image: url(../img/vkhover.png);
+  transition: 0.3s;
+}
+
+.footer__networks-item-fb{
+  background-image: url(../img/f.png);
+}
+
+.footer__networks-item-fb:hover{
+  background-image: url(../img/fbhover.png);
+  transition: 0.3s;
+}
+
+.footer__networks-item-ins{
+  background-image: url(../img/in.png);
+}
+
+.footer__networks-item-ins:hover{
+  background-image: url(../img/insthover.png);
+  transition: 0.3s;
+}
 
 .footer__container{
   /* position: relative; */

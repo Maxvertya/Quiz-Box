@@ -5,4 +5,4 @@
 2) BEM
 3) Анимации CSS
 
-[Ссылка на сайт](https://maxvertya.github.io/loftschool/indexnew.html)
+[Ссылка на сайт](https://maxvertya.github.io/Quiz-Box/indexnew.html)
